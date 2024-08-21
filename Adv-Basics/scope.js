@@ -1,4 +1,4 @@
-let a = 160;
+ let a = 160;
 const b = 4;
 var c = 50;
 
