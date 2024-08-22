@@ -42,6 +42,7 @@ myCOde.forEach(({lang,name})=>{
     console.log(lang,name);
     
 })
+//for each loop does not return any value , it returns undefined
 
 
 
