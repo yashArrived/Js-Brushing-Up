@@ -33,3 +33,5 @@ const arrayOfObj = [
 const tot = arrayOfObj.reduce((acc,{price})=> acc+price , 0);
 
 console.log(tot);
+
+// Therefore we need accumulator and curr value , with initial value in accumaltor as second callback
