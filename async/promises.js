@@ -94,3 +94,9 @@ return res.json();
 console.log(err);
 
 })
+
+//fetch queue i.e microtask queue i.e priority queue has highest priority!!!
+ /*
+  .
+ . . fetch has high priority for execution.
+ */
