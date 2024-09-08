@@ -32,7 +32,7 @@ console.log(boolLoggedIn);// --> true
  let neg = -val;
 
 
-//  2**3 => power : ans : 8
+//  2**3 => power : ans : 8 : (it says 2 to the power 3)
 
 console.log("1"+2+2); //-->122
 //the first value is taken as preferred value.
