@@ -10,18 +10,18 @@ const num = 323.8966;
 //the answer would have been 124
 
 const thousand = 1000000;
-// make it in indan system
-// console.log(thousand.toLocaleString('en-IN'));
+// make it in indian system
+// console.log(thousand.toLocaleString('en-IN')); // o/p : 10,00,000
 
-//  console.log(Math.hypot(3,2));
-//  console.log(Math.round(3.5));
+//  console.log(Math.hypot(3,2)); //Output : 3.605 (it finds the square root of the nums)
+//  console.log(Math.round(3.5)); // output : 4  (roundoff)
 
 
 //   console.log(Math.random()*10+1);
 
   const min = 10;
   const max = 20;
-// IMPORTANT fORMULA :
+// IMPORTANT fORMULA  to generate any number between given range (from 10 to 20 here) :
   console.log(Math.floor(Math.random() * (max-min+1)+min ))
 
 
