@@ -5,7 +5,7 @@ const balance = new Number(400);
 
 const num = 323.8966;
 
-// console.log(num.toPrecision(3));
+// console.log(num.toPrecision(3)); // output - 324
 //precision , 3 is the numbers we give priority to , if it was 123
 //the answer would have been 124
 
