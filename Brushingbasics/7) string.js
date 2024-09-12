@@ -29,14 +29,17 @@ const url = "https:yash.com/yash"
 
 let abc = url.replace('yash' , 'tiwari')
 
+console.log(abc); //Output => 'https:tiwari.com/yash'
+
 //includes
 
 url.includes('mohna') // ->false
 
 // Split String
 newName.split('-')
-
-
+// Wherever it finds '-' in string it splits and make that as array values.
+// For ex: let a = "gg-hb-asd fd "
+a.splice('-') ==> ['gg','hb','asd',' fd'];
 
 
 
