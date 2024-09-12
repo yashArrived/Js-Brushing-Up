@@ -17,6 +17,24 @@ myArr.pop() //-> last element gets deleted
 myArr.unshift(5) // numberw will be added in forward
 myArr.includes(4); //true or false
 const newArer = myArr.join() //-->Elements joined and converted to string!
+/*
+  Ex:
+Default Usage (Comma-Separated)
+const arr = ['apple', 'banana', 'cherry'];
+const result = arr.join();
+
+console.log(result);  // Output: "apple,banana,cherry"
+const arr = ['apple', 'banana', 'cherry'];
+const result = arr.join(' ');
+
+console.log(result);  // Output: "apple banana cherry"
+
+const arr = ['apple', 'banana', 'cherry'];
+const result = arr.join('-');
+
+console.log(result);  // Output: "apple-banana-cherry"
+
+*/
 
 
 // slice and splice 
