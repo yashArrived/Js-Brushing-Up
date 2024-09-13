@@ -4,7 +4,7 @@ JS:
 Single Threaded
 Synchronous
 } Default
-JS engine alone will be slow but we don't fine js engine alone anywhere
+JS engine alone will be slow but we don't find js engine alone anywhere
 we find it in a runtime env ex: browser or NodeJs
 
 
@@ -18,10 +18,10 @@ CALL STACK & MEMORY HEAP is used
 Blocking Code : blocks flow of program : readFileSync
 Non BLocking COde : Doest not block execution : readFileAsync
 
-blocking code is also necessary:
+Blocking code is also necessary sometimes :
 as when you take user data and register in the db
 you send user confirmation as SUCCESSFUL without getting response from the db 
-then what if you get error msg from db that it failed and u already sent success msg to the user.
+then what if you get error msg from db that it failed and you already sent success msg to the user.
 
 
 */
