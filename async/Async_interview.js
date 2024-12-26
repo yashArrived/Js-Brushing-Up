@@ -1,10 +1,11 @@
 /*
 JS:
 {
-Single Threaded
+Single-Threaded
 Synchronous
-} Default
-JS engine alone will be slow but we don't find js engine alone anywhere
+} 
+Default
+JS engine alone will be slow but we don't find JS engine alone anywhere
 we find it in a runtime env ex: browser or NodeJs
 
 
